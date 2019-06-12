@@ -21,7 +21,7 @@ In another terminal, run `ngrok http 4567`. Then, copy the http ngrok URL as a n
 After selecting "Send me everything" and saving the webhook, GitHub will send its first message to the given webhook endpoint. The reception of the response can be seen in the running Ruby server.
 
 ## Lambda
-Second test setting up an API Gateway to receive POST requests from GitHub. The gateway executes a Lambda function which parses the event and can log a response to CloudWatch logs, send a message to a Slack channel, and upload a document to an S3 bucket.
+Second test setting up an API Gateway to receive POST requests from GitHub. The gateway executes a Lambda function which parses the event and can log a response to CloudWatch logs, send a message to a Slack channel, and upload a file to an S3 bucket.
 
 ## Owner
 
