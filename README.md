@@ -1,16 +1,10 @@
-# github-webhooks-test
+# GitHub Webhooks Test
+
 Test communicating with GitHub's webhooks
 
 ## Ruby
+
 Initial test to receieve POST requests from GitHub. Exposed local Ruby server to internet using ngrok, and logged the reception of the request in the local server.
-
-### Installations
-
-* [ngrok](https://ngrok.com/)
-
-* [Ruby](https://www.ruby-lang.org/en/)
-
-    * [Sinatra](http://sinatrarb.com/)
 
 ### Instructions
 
@@ -22,6 +16,12 @@ After selecting "Send me everything" and saving the webhook, GitHub will send it
 
 ## Lambda
 Second test setting up an API Gateway to receive POST requests from GitHub. The gateway executes a Lambda function which parses the event and can log a response to CloudWatch logs, send a message to a Slack channel, and upload a file to an S3 bucket.
+
+## Dependencies
+
+* [ngrok](https://ngrok.com/)
+
+* [Sinatra](http://sinatrarb.com/)
 
 ## Owner
 
