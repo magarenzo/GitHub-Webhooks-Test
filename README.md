@@ -26,5 +26,3 @@ Second test setting up an API Gateway to receive POST requests from GitHub. The 
 ## Owner
 
 Michael A. Agarenzo
-
-[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
