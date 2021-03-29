@@ -25,4 +25,4 @@ Second test setting up an API Gateway to receive POST requests from GitHub. The 
 
 ## Owner
 
-[Michael A. Agarenzo](https://magarenzo.com)
+[Michael A.](https://linkedin.com/in/magarenzo)
